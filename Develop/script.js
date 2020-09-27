@@ -19,10 +19,14 @@ function generatePassword(){
   
 //prompts for code
 var passLength = prompt ("choose a number between 8 and 128 ")
-  if (passLength>8) {
+  if (passLength>=8) {
     alert ("You're password isnt between 8 of 128 characters")
+    return;
   }
+ 
 var lowerCase = confirm ("Do you want lowercase letters?")
+
+
 var upperCase = confirm ("Do you want lowercase letters?")
 var numbers = confirm ("Do you want numbers?")
 var specialChar = confirm ("Do you want special characters?")
