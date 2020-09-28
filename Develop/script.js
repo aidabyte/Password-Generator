@@ -19,12 +19,12 @@ var generateBtn = document.querySelector("#generate");
   var cNumberCharacter;
   var cUpperCase;
   var cLowerCase;
-  
 
 
-//prompts for code
+
+//prompts for the user
 function generatePassword(){
-
+//asking the proper length of the numbers
   var passLength = prompt("choose a number between 8 and 128");
   if (passLength< 8 || passLength> 128) {
     alert("You're password isnt between 8 of 128 characters, please try again");
