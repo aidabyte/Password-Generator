@@ -37,6 +37,10 @@ var cupperCase = confirm ("Do you want lowercase letters?");
 var cnumbers = confirm ("Do you want numbers?");
 var cspecialChar = confirm ("Do you want special characters?");
 
+    if (cSpecialChar === false && cNumbers === false && cUpperCase === false && clowerCase === false) {
+      alert("You must choose one of these characters")
+    }
+
 //confirm 
 
 
