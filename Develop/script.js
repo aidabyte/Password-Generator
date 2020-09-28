@@ -30,10 +30,12 @@ function generatePassword(){
     alert("You're password isnt between 8 of 128 characters, please try again");
     return;
   }
-var lowerCase = confirm ("Do you want lowercase letters?");
-var upperCase = confirm ("Do you want lowercase letters?");
-var numbers = confirm ("Do you want numbers?");
-var specialChar = confirm ("Do you want special characters?");
+
+  //confirm all the different questions that the user will be asked
+var clowerCase = confirm ("Do you want lowercase letters?");
+var cupperCase = confirm ("Do you want lowercase letters?");
+var cnumbers = confirm ("Do you want numbers?");
+var cspecialChar = confirm ("Do you want special characters?");
 
 //confirm 
 
