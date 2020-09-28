@@ -32,16 +32,22 @@ function generatePassword(){
   }
 
   //confirm all the different questions that the user will be asked
-var clowerCase = confirm ("Do you want lowercase letters?");
-var cupperCase = confirm ("Do you want lowercase letters?");
-var cnumbers = confirm ("Do you want numbers?");
-var cspecialChar = confirm ("Do you want special characters?");
+var cLowerCase = confirm ("Do you want lowercase letters?");
+var cUpperCase = confirm ("Do you want lowercase letters?");
+var cNumbers = confirm ("Do you want numbers?");
+var cSpecialChar = confirm ("Do you want special characters?");
 
     if (cSpecialChar === false && cNumbers === false && cUpperCase === false && clowerCase === false) {
-      alert("You must choose one of these characters")
-    }
+      alert("You must choose one of these characters");
+      var cLowerCase = confirm ("Do you want lowercase letter?");
+      var cUpperCase = confirm ("Do you want lowercase letters?");
+      
+      
+    
+
 
 //confirm 
+
 
 
 
