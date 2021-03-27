@@ -1,4 +1,4 @@
-# Password Generator homework
+# Password Generator 
 > A password generator designed to pick at random a secure password for the user utilizing Javascript.
 
 ## Table of contents
